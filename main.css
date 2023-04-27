@@ -1,0 +1,211 @@
+:root {
+    --white: #FFFFFF;
+    --black: #181616;
+    --blackbody: #494949;
+}
+
+body {
+    background: var(--blackbody);
+    color: var(--fontColor);
+    font-family: Arial;
+    margin: 0;
+    cursor: default;
+}
+
+.righter {
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+}
+
+.lefter {
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.toper-h1{
+    font-weight: 900;
+    font-size: 20pt;
+    margin: auto;
+}
+
+.toper-h2{
+    color: var(--fontColor);
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 20pt;
+    margin: auto;
+    margin-left: 32px;
+}
+
+.logo {
+    width: 44.4px;
+    margin: 10px;
+}
+
+.toper {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 18px;
+    justify-content: space-between;
+    background-color: var(--bg);
+}
+
+.scrole {
+    margin: 0;
+    overflow-y: auto;
+}
+
+.container {
+    margin: 12px;
+}
+
+.card{
+    background-color: var(--bg);
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 12px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card-righter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 64px;
+}
+
+.card-lefter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 64px;
+}
+
+h2{
+    margin: 0px;
+}
+
+h3{
+    color: #a5a5a5;
+}
+
+.contact{
+    margin: 0px;
+}
+
+.voiture-one{
+    width: 652px;
+    margin-right: 32px;
+}
+
+.voiture-two{
+    width: 511px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.voiture-three{
+    width: 390px;
+    margin: 32px;
+}
+
+.button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(227, 227, 227);
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    width: 200px;
+    cursor: pointer;
+}
+
+.div-button {
+    margin-left: 155.5px;
+    margin-right: 155.5px;
+}
+
+.button:hover {
+    background-color: rgba(227, 227, 227, 0.757);
+}
+
+.button:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Thème sombre par défaut */
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--white);
+}
+
+/* Theme clair */
+.light-theme {
+    --bg: var(--white);
+    --fontColor: var(--black);
+}
+
+.bouton-menu {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+  
+.menu {
+    display: none; /* cacher le menu par défaut */
+    position: absolute;
+    top: 104px;
+    left: 0;
+    z-index: 0;
+    width: 30%;
+    background-color: var(--bg);
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    opacity: 80%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 24px;
+    color: var(--fontColor);
+}
+
+.cross{
+    text-align: right;
+    text-align: top;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.bouton{
+    font-size: 20px;
+    color: var(--fontColor);
+}
+
+.croix{
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
