@@ -16,7 +16,7 @@ switcher.addEventListener('click', function() {
     console.log('current class name: ' + className);
 });*/
 
-const boutonMenu = document.querySelector('.bouton-menu');
+const boutonMenu = document.querySelector('.burger');
 const menu = document.querySelector('.menu');
 const menuLinkArray = document.querySelectorAll('.menu a');
 const cross = document.querySelector('.croix');
