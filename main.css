@@ -313,3 +313,20 @@ h1{
     grid-row-start: 1;
     grid-column-start: 1;
 }
+
+.picture{
+    width: 45%;
+    margin: auto;
+    padding: 1%;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.galleryTitle{
+    display: flex;
+    flex-direction: column;
+}
